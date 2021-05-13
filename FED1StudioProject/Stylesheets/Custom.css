@@ -1,0 +1,40 @@
+﻿header{
+    background-color:lightgray;
+    color:darkorchid;
+    font-size: 40px;
+}
+
+main{
+    background-color:lavender;
+    color:darkmagenta
+}
+
+h1.headerStyle{
+    font-weight: bold;
+    font-size: 40;
+    color: indigo;
+}
+
+#ChooseUsParagraph{
+    color: darkgoldenrod;
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    color: mediumseagreen;
+}
+
+p.headerparagraph{
+    color: blueviolet;
+    font-size: 34px;
+}
+
+footer{
+    background-color:aquamarine;
+    color: rebeccapurple;
+}

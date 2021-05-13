@@ -72,6 +72,7 @@
     <Content Include="Stylesheets\classescustom.css" />
     <Content Include="Stylesheets\contactcustom.css" />
     <Content Include="Stylesheets\Custom.css" />
+    <Content Include="Stylesheets\import.css" />
     <Content Include="Stylesheets\teamcustom.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />

@@ -56,3 +56,8 @@ footer{
     background-color: aquamarine;
     color: rebeccapurple;
 }
+
+nav ul li {
+    display: inline-block;
+    color: aqua;
+}

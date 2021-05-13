@@ -1,0 +1,44 @@
+﻿header{
+    background-color: lightgray;
+    color: darkorchid;
+    font-size: 40px;
+    font-family: Garamond;
+}
+
+main{
+    background-color: lavender;
+    color: darkmagenta;
+    font-family: Garamond;
+}
+
+h1.headerStyle{
+    font-weight: bold;
+    font-size: 40px;
+    color: indigo;
+    font-family: Garamond;
+}
+
+p.headerparagraph{
+    color: blueviolet;
+    font-size: 34px;
+    font-family: Garamond;
+}
+
+h1{
+    font-size: 30px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+p{
+    font-size: 24px;
+    color: mediumslateblue;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+footer{
+    background-color: aquamarine;
+    color: rebeccapurple;
+}

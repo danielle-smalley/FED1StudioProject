@@ -70,6 +70,7 @@
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="Stylesheets\classescustom.css" />
+    <Content Include="Stylesheets\contactcustom.css" />
     <Content Include="Stylesheets\Custom.css" />
     <Content Include="Stylesheets\teamcustom.css" />
     <Content Include="team.html" />

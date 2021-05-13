@@ -45,3 +45,27 @@ footer{
     background-color:aquamarine;
     color: rebeccapurple;
 }
+
+/*Change attributes for all of the below*/
+nav a{
+    font-weight: bold;
+    color: aquamarine;
+}
+
+nav ul{
+    background-color: darkorchid;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*horizontal nav bar styling -  NEED THIS FOR PROJECT*/
+nav ul li{
+    display: inline-block;
+    color: aqua;
+}

@@ -2,37 +2,44 @@
     background-color:lightgray;
     color:darkorchid;
     font-size: 40px;
+    font-family: Garamond;
 }
 
 main{
     background-color:lavender;
-    color:darkmagenta
+    color:darkmagenta;
+    font-family: Garamond;
 }
 
-h1.headerStyle{
+h1.headerStyle {
     font-weight: bold;
-    font-size: 40;
+    font-size: 40px;
     color: indigo;
+    font-family: Garamond;
 }
 
-#ChooseUsParagraph{
+#ChooseUsParagraph {
     color: darkgoldenrod;
     font-size: 35px;
+    font-family: Garamond;
 }
 
-h3{
+h3 {
     font-size: 25px;
+    font-family: Garamond;
 }
 
-p{
+p {
     font-size: 20px;
     color: mediumseagreen;
+    font-family: Garamond;
 }
 
 p.headerparagraph{
-    color: blueviolet;
-    font-size: 34px;
-}
+        color: blueviolet;
+        font-size: 34px;
+        font-family: Garamond;
+    }
 
 footer{
     background-color:aquamarine;

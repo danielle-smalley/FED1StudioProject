@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="contact.html" />
+    <Content Include="favicon.ico" />
     <Content Include="Stylesheets\classescustom.css" />
     <Content Include="Stylesheets\contactcustom.css" />
     <Content Include="Stylesheets\Custom.css" />

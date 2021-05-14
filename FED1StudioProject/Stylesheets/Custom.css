@@ -23,7 +23,7 @@ header {
     background-color: #61FFBA;
     background-image: url(https://image.shutterstock.com/image-photo/wide-variety-spices-herbs-on-260nw-1249477660.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: right;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -38,6 +38,8 @@ main {
     color: #7100B3;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
+    padding: 1em;
+    margin: 2em;
 }
 
 h1.headerStyle {
@@ -77,6 +79,10 @@ footer {
     background-color: #61FFBA;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    text-align: center;
+    padding: .5em;
+    padding: 1em;
+    margin: 3em;
 }
 
 nav a{
@@ -120,13 +126,3 @@ h1.chooseusheader {
     background-color: #61FFBA;
     font-size: 2em;
 }
-
-.fas{
-    font-size: 1.5em;
-    color: black;
-}
-
-.fas:hover{
-    color: ghostwhite;
-}
-

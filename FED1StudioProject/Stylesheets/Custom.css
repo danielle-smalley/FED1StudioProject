@@ -1,86 +1,116 @@
-﻿
+﻿/*Color Theme from Adobe Color Wheel 
+    Dark purple: #8909B8
+    Light yellow/gold: #FFDB8F
+    light purple: #DB7AFF
+    sea foam green: #61FFBA
+    darker green: #3BB37E
+    medium grey(slight tan): #B6A88F
+    deep dark purple: #7100B3
+    orange: #FF8E00
+    dark gray: #6B625B
+    dark gray purple: #615178
+    */
 @import url(import.css);
 
-header{
-    background-color:lightgray;
-    color:darkorchid;
-    font-size: 40px;
+header {
+    background-color: #61FFBA;
+    background-image: url(https://image.shutterstock.com/image-photo/wide-variety-spices-herbs-on-260nw-1249477660.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1em;
     font-family: Garamond;
 }
 
-main{
-    background-color:lavender;
-    color:darkmagenta;
+main {
+    background-color: #DB7AFF;
+    border-top: 2px thick black;
+    border-bottom: 2px thick black;
+    color: #7100B3;
     font-family: Garamond;
+    font-size: 1.5em;
 }
 
 h1.headerStyle {
     font-weight: bold;
-    font-size: 40px;
-    color: indigo;
+    font-size: 3em;
+    color: #7100B3;
     font-family: Garamond;
+
 }
 
 #ChooseUsParagraph {
-    color: darkgoldenrod;
-    font-size: 35px;
+    color: #615178;
+    font-size: 1em;
     font-family: Garamond;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 2em;
     font-family: Garamond;
+    color: #6B625B;
 }
 
 p {
-    font-size: 20px;
-    color: mediumseagreen;
+    font-size: 1em;
+    color: #7100B3;
     font-family: Garamond;
 }
 
-p.headerparagraph{
-        color: blueviolet;
-        font-size: 34px;
+    p.headerparagraph {
+        color: #FF8E00;
+        font-size: 2em;
         font-family: Garamond;
     }
 
-footer{
-    background-color:aquamarine;
-    color: rebeccapurple;
+footer {
+    background-color: #61FFBA;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 nav a{
     font-weight: bold;
-    color: aquamarine;
+    color: #3BB37E;
 }
 
-nav ul{
-    background-color: darkorchid;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+nav ul {
+    background-color: #FFDB8F;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
-a{
-    color: brown;
+a {
+    color: #7100B3;
+    font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
-    color: aqua;
+    color: #3BB37E;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
-nav a:hover, .selected{
-    background-color: navy;
-    color: deeppink
+nav a:hover, .selected {
+    background-color: #B6A88F;
+    color: #7100B3;
 }
 
 nav ul li a{
-    padding: 1em 2em;
+    padding: .5em 2em;
     display: block;
+}
+
+h1.chooseusheader {
+    text-align: center;
+    color: #615178;
+    background-color: #61FFBA;
+    font-size: 2em;
 }
 

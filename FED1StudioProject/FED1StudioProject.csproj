@@ -70,6 +70,19 @@
     <Content Include="classes.html" />
     <Content Include="contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\about.txt" />
+    <Content Include="Images\android-chrome-192x192.png" />
+    <Content Include="Images\android-chrome-512x512.png" />
+    <Content Include="Images\apple-touch-icon.png" />
+    <Content Include="Images\christinabradshaw.jpg" />
+    <Content Include="Images\emeliebrady.jpg" />
+    <Content Include="Images\fabd3462b5724dbcab0506fc3ac3438e.png" />
+    <Content Include="Images\favicon-16x16.png" />
+    <Content Include="Images\favicon-32x32.png" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logo2.png" />
+    <Content Include="Images\nealweber.jpg" />
     <Content Include="Stylesheets\classescustom.css" />
     <Content Include="Stylesheets\contactcustom.css" />
     <Content Include="Stylesheets\Custom.css" />
@@ -83,6 +96,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\site.webmanifest" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -92,7 +106,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>

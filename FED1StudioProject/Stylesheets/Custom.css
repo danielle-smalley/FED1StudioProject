@@ -9,19 +9,27 @@
     orange: #FF8E00
     dark gray: #6B625B
     dark gray purple: #615178
+
+    pastel colors:
+    #a6f0c6 sea foam green
+    #a98b98  light purple grey
+    #4e3d53    dark purple grey
+    #0f1123     almost black
     */
 /*Google font families
 font-family: 'Dosis', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto Slab', serif;
+school name: font-family: 'Fredoka One', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 @import url(import.css);
 
 header {
-    background-color: #61FFBA;
-    background-image: url(https://image.shutterstock.com/image-photo/wide-variety-spices-herbs-on-260nw-1249477660.jpg);
+    background-color: #a98b98;
+    /*background-image: url(https://image.shutterstock.com/image-photo/wide-variety-spices-herbs-on-260nw-1249477660.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -32,10 +40,10 @@ header {
 }
 
 main {
-    background-color: #DB7AFF;
+    background-color: #4e3d53;
     border-top: 2px thick black;
     border-bottom: 2px thick black;
-    color: #7100B3;
+    color: #FFDB8F;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     padding: 1em;
@@ -46,11 +54,11 @@ h1.headerStyle {
     font-size: 3em;
     color: #7100B3;
     font-weight: bolder;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 #ChooseUsParagraph {
-    color: #615178;
+    color: #FFDB8F;
     font-size: 1em;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
@@ -59,24 +67,25 @@ h1.headerStyle {
 h3 {
     font-size: 2em;
     font-family: 'Dosis', sans-serif;
-    color: #6B625B;
+    color: white;
     font-weight: bold;
 }
 
 p {
     font-size: 1em;
-    color: #7100B3;
+    color: #a98b98;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
     p.headerparagraph {
-        color: #FF8E00;
+        color: #FFDB8F;
         font-size: 2em;
         font-family: 'Playfair Display', serif;
     }
 
 footer {
-    background-color: #61FFBA;
+    background-color: #a6f0c6;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     text-align: center;
@@ -85,19 +94,24 @@ footer {
     margin: 3em;
 }
 
-nav a{
+footer a{
+    color: black;
+    text-decoration: underline;
+}
+
+nav a {
     font-weight: bold;
-    color: #3BB37E;
+    color: #0f1123;
 }
 
 nav ul {
-    background-color: #FFDB8F;
+    background-color: #a6f0c6;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
 
 a {
-    color: #7100B3;
+    color: white;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
@@ -111,7 +125,7 @@ nav ul li {
 }
 
 nav a:hover, .selected {
-    background-color: #B6A88F;
+    background-color: #a6f0c6;
     color: #7100B3;
 }
 
@@ -123,6 +137,6 @@ nav ul li a{
 h1.chooseusheader {
     text-align: center;
     color: #615178;
-    background-color: #61FFBA;
+    background-color: #a6f0c6;
     font-size: 2em;
 }

@@ -80,9 +80,11 @@
     <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\favicon-32x32.png" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Images\full background.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\nealweber.jpg" />
+    <Content Include="Images\spices.jpg" />
     <Content Include="Stylesheets\Custom.css" />
     <Content Include="Stylesheets\import.css" />
     <Content Include="team.html" />

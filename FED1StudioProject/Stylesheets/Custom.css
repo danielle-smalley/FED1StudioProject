@@ -28,11 +28,7 @@ school name: font-family: 'Fredoka One', cursive;
 @import url(import.css);
 
 header {
-    background-color: #a98b98;
-    /*background-image: url(https://image.shutterstock.com/image-photo/wide-variety-spices-herbs-on-260nw-1249477660.jpg); */
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*background-position: right;*/
+    background-color: RGBA(169,139,152, .9);
     font-size: 1em;
     font-family: 'Dosis', sans-serif;
     margin: .5em;
@@ -40,7 +36,7 @@ header {
 }
 
 main {
-    background-color: #4e3d53;
+    background-color: RGBA(78,61,83,.9);
     color: #FFDB8F;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
@@ -82,7 +78,7 @@ p {
     }
 
 footer {
-    background-color: #a6f0c6;
+    background-color: RGBA(166,240,198,.8);
     text-align: left;
     margin: .5em;
 }
@@ -133,6 +129,7 @@ h1.chooseusheader {
     color: #615178;
     background-color: #a6f0c6;
     font-size: 2em;
+    margin: 1em;
 }
 
 header img {
@@ -145,4 +142,10 @@ p.socialmedia{
     margin-right: 1em;
     font-size: 1.5em;
 
+}
+
+body {
+    background-image: url('../Images/full background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }

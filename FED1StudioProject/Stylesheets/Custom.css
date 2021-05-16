@@ -132,11 +132,11 @@ nav ul li a {
     background-color: RGBA(166,240,198,.8);
 }
 
-h1.chooseusheader {
+h1.chooseusheader{
     text-align: center;
     color: #615178;
     background-color: RGBA(166,240,198,.8);
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 1em;
 }
 
@@ -177,3 +177,8 @@ p.contactus{
 h3.subjecttitles{
     font-size: 2em;
 }
+
+aside{
+    float: right;
+}
+

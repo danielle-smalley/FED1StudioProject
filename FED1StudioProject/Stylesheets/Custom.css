@@ -33,22 +33,18 @@ header {
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     /*background-position: right;*/
-    margin: 1em;
-
-    border: 2px solid white;
     font-size: 1em;
     font-family: 'Dosis', sans-serif;
+    margin: .5em;
+    padding-bottom: 1em;
 }
 
 main {
     background-color: #4e3d53;
-    border-top: 2px thick black;
-    border-bottom: 2px thick black;
     color: #FFDB8F;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
-    padding: 1em;
-    margin: 1em;
+    margin: .5em;
 }
 
 h1.headerStyle {
@@ -87,16 +83,14 @@ p {
 
 footer {
     background-color: #a6f0c6;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    text-align: center;
-    padding: 1em;
-    margin: 1.5em;
+    text-align: left;
+    margin: .5em;
 }
 
 footer a{
     color: black;
     text-decoration: underline;
+    text-alignment: center;
 }
 
 nav a {
@@ -106,7 +100,8 @@ nav a {
 
 nav ul {
     background-color: #a6f0c6;
-    margin: 1em;
+    margin: .5em;
+    padding: .6em;
 }
 
 a {
@@ -142,5 +137,12 @@ h1.chooseusheader {
 
 header img {
     float: left;
-    margin-bottom: 1em;
+}
+
+p.socialmedia{
+    text-align: right;
+    color: black;
+    margin-right: 1em;
+    font-size: 1.5em;
+
 }

@@ -83,11 +83,8 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\nealweber.jpg" />
-    <Content Include="Stylesheets\classescustom.css" />
-    <Content Include="Stylesheets\contactcustom.css" />
     <Content Include="Stylesheets\Custom.css" />
     <Content Include="Stylesheets\import.css" />
-    <Content Include="Stylesheets\teamcustom.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

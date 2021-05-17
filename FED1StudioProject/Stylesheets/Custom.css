@@ -161,13 +161,10 @@ body {
 h3 img{
     float: left;
 }
-
 p.teamdesc{
     text-align: left;
-}
-
-h3.teammembername{
-    text-align: left;
+    clear: both;
+    margin: 2em;
 }
 
 p.contactus{
@@ -176,9 +173,16 @@ p.contactus{
 
 h3.subjecttitles{
     font-size: 2em;
+    text-align: left;
 }
 
-aside{
+aside {
     float: right;
+    width: 12em;
+    background-color: RGBA(166,240,198,.6);
 }
 
+h3.teamnames{
+    clear: both;
+    float: left;
+}

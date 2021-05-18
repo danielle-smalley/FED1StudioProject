@@ -79,10 +79,12 @@
     <Content Include="Images\emeliebrady.png" />
     <Content Include="Images\fabd3462b5724dbcab0506fc3ac3438e.png" />
     <Content Include="Images\full background.jpg" />
+    <Content Include="Images\gregoryrandall.png" />
     <Content Include="Images\grill.jpg" />
     <Content Include="Images\heathermassey.png" />
     <Content Include="Images\knifeskills.jpg" />
     <Content Include="Images\logo2.png" />
+    <Content Include="Images\lorettawooten.png" />
     <Content Include="Images\lulazhao.png" />
     <Content Include="Images\marcusmcculloch.png" />
     <Content Include="Images\nealweber.png" />
@@ -91,7 +93,10 @@
     <Content Include="Images\rhiaduke.png" />
     <Content Include="Images\roastchicken.jpg" />
     <Content Include="Images\spices.jpg" />
+    <Content Include="Images\studiokitchen.jpg" />
     <Content Include="Images\tatedodson.png" />
+    <Content Include="Images\whyus1.png" />
+    <Content Include="Images\whyus2.png" />
     <Content Include="Stylesheets\Custom.css" />
     <Content Include="Stylesheets\import.css" />
     <Content Include="team.html" />

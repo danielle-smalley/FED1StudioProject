@@ -166,6 +166,7 @@ p.teamdesc{
 
 p.contactus{
     font-size: 1em;
+    padding: .3em;
 }
 
 h3.subjecttitles{
@@ -182,4 +183,31 @@ aside {
 h3.teamnames{
     clear: both;
     float: left;
+}
+
+#aboutus{
+    float: left;
+}
+
+p.aboutuspar{
+    clear: right;
+}
+
+img.imgkitchen{
+    float: right;
+    clear: both;
+}
+
+p.contactusimgp{
+    color: white;
+    text-align: right;
+}
+
+main.contactusmain {
+    background-color: RGBA(78,61,83,.97);
+    color: #FFDB8F;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    margin: .5em;
+    padding: 1em;
 }

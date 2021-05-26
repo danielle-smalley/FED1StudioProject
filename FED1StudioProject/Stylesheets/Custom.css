@@ -211,3 +211,46 @@ main.contactusmain {
     margin: .5em;
     padding: 1em;
 }
+
+table, tr, td, th {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+}
+
+td, th {
+    padding: 1em;
+    text-align:center;
+}
+
+thead {
+    background-color: black;
+}
+
+tbody {
+    background-color: #a98b98;
+    text-align:center;
+    color: black;
+}
+
+tbody tr:nth-child(even){
+    background-color: #6B625B;
+}
+
+#teamsLeftColumn{
+    width: 82%;
+    float: left;
+    border-right: 1px solid white;
+}
+
+#departmentRightColumn{
+    width: 18%;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}

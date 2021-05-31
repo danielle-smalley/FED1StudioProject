@@ -230,8 +230,12 @@ thead {
     background-color: black;
 }
 
+tfoot {
+    background-color: #615178;
+}
+
 tbody {
-    background-color: #a98b98;
+    background-color:#615178;
     text-align:center;
     color: black;
 }

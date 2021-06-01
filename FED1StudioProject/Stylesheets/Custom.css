@@ -29,7 +29,7 @@ header {
     font-size: .8em;
     font-family: 'Dosis', sans-serif;
     margin: .5em;
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
 }
 
 main {
@@ -42,10 +42,20 @@ main {
 }
 
 h1.headerStyle {
-    font-size: 2.8em;
+    font-size: 3.5em;
     color: #7100B3;
     font-weight: bolder;
     font-family: 'Acme', sans-serif;
+    clear: right;
+    padding-right: 20em;
+}
+
+p.headerparagraph {
+    color: #FFDB8F;
+    font-size: 2.7em;
+    font-family: 'Playfair Display', serif;
+    clear: right;
+    padding-bottom: 1em;
 }
 
 #ChooseUsParagraph1 {
@@ -54,7 +64,9 @@ h1.headerStyle {
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
     float: right;
-    text-align: right;  
+    text-align: right; 
+    overflow: auto;
+    clear: both;
 }
 
 #ChooseUsParagraph2 {
@@ -64,6 +76,9 @@ h1.headerStyle {
     font-family: 'Dosis', sans-serif;
     float: left;
     text-align: left;
+    padding: 1em;
+    overflow: auto;
+    clear: both;
 }
 
 h3 {
@@ -80,12 +95,6 @@ p {
     font-weight: bold;
 }
 
-    p.headerparagraph {
-        color: #FFDB8F;
-        font-size: 2em;
-        font-family: 'Playfair Display', serif;
-    }
-
 footer {
     background-color: RGBA(166,240,198,.8);
     text-align: left;
@@ -95,6 +104,7 @@ footer {
 
 footer a{
     color: black;
+    font-size: 2em;
     text-decoration: underline;
     text-alignment: center;
 }
@@ -113,7 +123,7 @@ nav ul {
 
 a {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     text-decoration: none;
     text-align: left;
@@ -150,6 +160,8 @@ h1.chooseusheader{
 
 header img {
     float: left;
+    clear: both;
+    overflow: auto;
 }
 
 p.socialmedia{
@@ -157,8 +169,15 @@ p.socialmedia{
     color: black;
     margin-right: 1em;
     font-size: 1.5em;
-
 }
+
+p.socialmedia2{
+    color: black;
+    text-align: right;
+    font-size: 1em;
+    padding-right: 1em;
+}
+
 
 body {
     background-image: url('../Images/full background.jpg');
@@ -166,13 +185,19 @@ body {
     background-attachment: fixed;
 }
 
-h3 img{
+/*h3 img{
     float: left;
-}
+}*/
 p.teamdesc{
-    text-align: left;
+    text-align: justify;
+    float: right;
+    /*overflow: auto;*/
+}
+
+img.teampic {
+    float: left;
+    /*overflow: auto;*/
     clear: both;
-    margin: 2em;
 }
 
 p.contactus{
@@ -180,35 +205,44 @@ p.contactus{
     padding: .3em;
 }
 
+
 h3.subjecttitles{
     font-size: 2em;
     text-align: left;
 }
 
-aside {
+/*aside {
     float: right;
     width: 12em;
+    padding-bottom: 80em;
     background-color: RGBA(166,240,198,.6);
-}
+}*/
 
 h3.teamnames{
-    clear: both;
+    /*clear: both;*/
     float: left;
+    /*padding: 1em;*/
 }
 
 #aboutus{
     float: left;
-    margin-right: .5em;
+    margin-right: 1em;
+    overflow: auto;
 }
 
-p.aboutuspar{
+p.aboutuspar {
     clear: right;
+    font-size: .75em;
+    text-align: justify;
+    padding-right: 2em;
+    color: white;
 }
 
-h3.aboutusheader{
-    font-size: 2em;
+h3.aboutusheader {
+    font-size: 1.5em;
     padding-left: 1em;
-    padding-top: .5em;
+    color: #FFDB8F;
+    padding-top: 1em;
 }
 
 
@@ -264,14 +298,18 @@ tbody tr:nth-child(even){
 }
 
 #teamsLeftColumn{
-    width: 82%;
+    width: 80%;
     float: left;
-    border-right: 1px solid white;
+    border-right: 2px solid white;
+    padding-right: .5em;
 }
 
 #departmentRightColumn{
-    width: 18%;
+    width: 16%;
     float: right;
+    padding-top: 1em;
+    /*overflow: auto;*/
+    /*clear: both;*/
 }
 
 .clear{
@@ -284,4 +322,32 @@ img.chooseusimg1{
 
 img.chooseusimg2{
     float: right;
+}
+
+
+
+#leadership, #sales, #administration, #instructors{
+    text-align: center;
+    background-color: black;
+    font-size: 2em;
+    margin-right: 1em;
+    margin-left: .5em;
+}
+
+#contactus{
+    font-size: 1em;
+}
+
+#logo{
+    float: left;
+    clear: both;
+
+}
+
+h1.classesheader{
+    text-align: center;
+    font-size: 2em;
+    background-color: black;
+    margin: .5em;
+    padding-bottom: .25em;
 }

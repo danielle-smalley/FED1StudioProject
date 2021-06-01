@@ -48,11 +48,22 @@ h1.headerStyle {
     font-family: 'Acme', sans-serif;
 }
 
-#ChooseUsParagraph {
+#ChooseUsParagraph1 {
     color: #FFDB8F;
     font-size: 1em;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
+    float: right;
+    text-align: right;  
+}
+
+#ChooseUsParagraph2 {
+    color: #FFDB8F;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    float: left;
+    text-align: left;
 }
 
 h3 {
@@ -187,11 +198,19 @@ h3.teamnames{
 
 #aboutus{
     float: left;
+    margin-right: .5em;
 }
 
 p.aboutuspar{
     clear: right;
 }
+
+h3.aboutusheader{
+    font-size: 2em;
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
 
 img.imgkitchen{
     float: right;
@@ -257,4 +276,12 @@ tbody tr:nth-child(even){
 
 .clear{
     clear: both;
+}
+
+img.chooseusimg1{
+    float: left;
+}
+
+img.chooseusimg2{
+    float: right;
 }

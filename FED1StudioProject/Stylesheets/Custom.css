@@ -28,7 +28,9 @@ header {
     background-color: RGBA(169,139,152, .9);
     font-size: .8em;
     font-family: 'Dosis', sans-serif;
-    margin: .5em;
+    /*margin: .5em;
+    padding: 0px 0px 15px 0px;*/
+    overflow: hidden;
     /*padding-bottom: 1em;*/
 }
 
@@ -38,7 +40,7 @@ main {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     margin: .5em;
-    padding: 1em;
+    /*padding: 1em;*/
 }
 
 h1.headerStyle {
@@ -48,6 +50,7 @@ h1.headerStyle {
     font-family: 'Acme', sans-serif;
     clear: right;
     padding-right: 20em;
+    margin: 0;
 }
 
 p.headerparagraph {
@@ -56,29 +59,33 @@ p.headerparagraph {
     font-family: 'Playfair Display', serif;
     clear: right;
     padding-bottom: 1em;
+    margin: 0;
 }
 
 #ChooseUsParagraph1 {
     color: #FFDB8F;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
     float: right;
-    text-align: right; 
-    overflow: auto;
-    clear: both;
+    text-align: justify;
+    width: 42%;
+    padding-right: 2em;
+    padding-bottom: 2.7em;
+    padding-top: 2.2em;
 }
 
 #ChooseUsParagraph2 {
     color: #FFDB8F;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
     float: left;
-    text-align: left;
-    padding: 1em;
-    overflow: auto;
-    clear: both;
+    text-align: justify;
+    width: 42%;
+    padding-top: 2em;
+    padding-bottom: 2.2em;
+    padding-left: 2em;
 }
 
 h3 {
@@ -106,7 +113,7 @@ footer a{
     color: black;
     font-size: 2em;
     text-decoration: underline;
-    text-alignment: center;
+    text-align: center;
 }
 
 nav a {
@@ -154,8 +161,11 @@ h1.chooseusheader{
     text-align: center;
     color: #615178;
     background-color: RGBA(166,240,198,.8);
-    font-size: 1.5em;
-    margin: 1em;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    margin-left: 1em; 
+    margin-right: 1em;
+    margin-top: 0em;
 }
 
 header img {
@@ -190,7 +200,7 @@ body {
 }*/
 p.teamdesc{
     text-align: justify;
-    float: right;
+    /*float: right;*/
     /*overflow: auto;*/
 }
 
@@ -207,8 +217,9 @@ p.contactus{
 
 
 h3.subjecttitles{
-    font-size: 2em;
-    text-align: left;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0em;
 }
 
 /*aside {
@@ -221,28 +232,29 @@ h3.subjecttitles{
 h3.teamnames{
     /*clear: both;*/
     float: left;
-    /*padding: 1em;*/
 }
 
 #aboutus{
     float: left;
     margin-right: 1em;
-    overflow: auto;
+    width: 30%;
+    height: 40%;
+    padding-top: 1em;
 }
 
 p.aboutuspar {
     clear: right;
-    font-size: .75em;
+    font-size: 1em;
     text-align: justify;
     padding-right: 2em;
     color: white;
 }
 
 h3.aboutusheader {
-    font-size: 1.5em;
+    font-size: 1.75em;
     padding-left: 1em;
     color: #FFDB8F;
-    padding-top: 1em;
+    padding-top: 1.75em;
 }
 
 
@@ -298,16 +310,18 @@ tbody tr:nth-child(even){
 }
 
 #teamsLeftColumn{
-    width: 80%;
+    width: 77%;
     float: left;
     border-right: 2px solid white;
-    padding-right: .5em;
+    padding-right: .75em;
+    padding-left: .5em;
 }
 
 #departmentRightColumn{
-    width: 16%;
+    width: 19%;
     float: right;
     padding-top: 1em;
+    padding-left: .5em;
     /*overflow: auto;*/
     /*clear: both;*/
 }
@@ -318,12 +332,17 @@ tbody tr:nth-child(even){
 
 img.chooseusimg1{
     float: left;
+    width: 46.70%;
+    padding-left: 2.2em;
+    padding-bottom: 1em;
 }
 
 img.chooseusimg2{
     float: right;
+    width: 46.80%;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
 }
-
 
 
 #leadership, #sales, #administration, #instructors{
@@ -348,6 +367,36 @@ h1.classesheader{
     text-align: center;
     font-size: 2em;
     background-color: black;
-    margin: .5em;
-    padding-bottom: .25em;
+    padding-bottom: .75em;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+.card{
+    display: inline-block;
+    width: 25%;
+    height: 40%;
+    border: solid .25em black;
+    margin-left: 4em;
+    /*margin-right: -1em;*/
+    padding: 0em;
+}
+
+.imgclass{
+    width: 100%;
+    height: 35%;
+}
+
+.classdesc{
+    text-align: center;
+    width: 80%;
+    margin: 0em;
+    padding-left: 2em;
+    font-size: .75em;
+}
+
+.sched{
+    font-size: .75em;
+    float: left;
+    padding-left: 8em;
 }

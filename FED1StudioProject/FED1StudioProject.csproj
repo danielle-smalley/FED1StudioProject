@@ -71,9 +71,10 @@
     <Content Include="contact.html" />
     <Content Include="favicon.ico" />
     <Content Include="Images\about.txt" />
-    <Content Include="Images\bettylopez.jpg" />
     <Content Include="Images\bettylopez.png" />
     <Content Include="Images\bread.jpg" />
+    <Content Include="Images\chooseus1.jpg" />
+    <Content Include="Images\chooseus2.jpg" />
     <Content Include="Images\christinabradshaw.png" />
     <Content Include="Images\eggs.jpg" />
     <Content Include="Images\emeliebrady.png" />

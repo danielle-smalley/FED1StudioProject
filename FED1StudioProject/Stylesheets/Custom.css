@@ -189,8 +189,10 @@ body {
     background-attachment: fixed;
 }
 
-p.teamdesc{
+p.teamdesc {
     text-align: left;
+    color: white;
+    font-size: .75em;
 }
 
 img.teampic {
@@ -209,8 +211,10 @@ h3.subjecttitles{
     margin: 0em;
 }
 
-h3.teamnames{
-    float: left;  
+h3.teamnames {
+    float: left;
+    color: black;
+    background-color: RGBA(166,240,198,.6);
 }
 
 #aboutus{

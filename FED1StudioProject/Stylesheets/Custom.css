@@ -21,17 +21,13 @@ school name: font-family: 'Fredoka One', cursive;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display&family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-
 @import url(import.css);
 
 header {
     background-color: RGBA(169,139,152, .9);
     font-size: .8em;
     font-family: 'Dosis', sans-serif;
-    /*margin: .5em;
-    padding: 0px 0px 15px 0px;*/
     overflow: hidden;
-    /*padding-bottom: 1em;*/
 }
 
 main {
@@ -40,7 +36,6 @@ main {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     margin: .5em;
-    /*padding: 1em;*/
 }
 
 h1.headerStyle {
@@ -188,25 +183,18 @@ p.socialmedia2{
     padding-right: 1em;
 }
 
-
 body {
     background-image: url('../Images/full background.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-/*h3 img{
-    float: left;
-}*/
 p.teamdesc{
-    text-align: justify;
-    /*float: right;*/
-    /*overflow: auto;*/
+    text-align: left;
 }
 
 img.teampic {
     float: left;
-    /*overflow: auto;*/
     clear: both;
 }
 
@@ -215,23 +203,14 @@ p.contactus{
     padding: .3em;
 }
 
-
 h3.subjecttitles{
     font-size: 1.5em;
     text-align: center;
     margin: 0em;
 }
 
-/*aside {
-    float: right;
-    width: 12em;
-    padding-bottom: 80em;
-    background-color: RGBA(166,240,198,.6);
-}*/
-
 h3.teamnames{
-    /*clear: both;*/
-    float: left;
+    float: left;  
 }
 
 #aboutus{
@@ -256,7 +235,6 @@ h3.aboutusheader {
     color: #FFDB8F;
     padding-top: 1.75em;
 }
-
 
 img.imgkitchen{
     float: right;
@@ -322,8 +300,6 @@ tbody tr:nth-child(even){
     float: right;
     padding-top: 1em;
     padding-left: .5em;
-    /*overflow: auto;*/
-    /*clear: both;*/
 }
 
 .clear{
@@ -344,7 +320,6 @@ img.chooseusimg2{
     padding-bottom: 1em;
 }
 
-
 #leadership, #sales, #administration, #instructors{
     text-align: center;
     background-color: black;
@@ -360,7 +335,6 @@ img.chooseusimg2{
 #logo{
     float: left;
     clear: both;
-
 }
 
 h1.classesheader{
@@ -378,7 +352,6 @@ h1.classesheader{
     height: 40%;
     border: solid .25em black;
     margin-left: 4em;
-    /*margin-right: -1em;*/
     padding: 0em;
 }
 
@@ -399,4 +372,9 @@ h1.classesheader{
     font-size: .75em;
     float: left;
     padding-left: 8em;
+}
+
+div.card:hover {
+    border: solid .25em white;
+    background-color: RGBA(137,9,184,.6);
 }

@@ -74,7 +74,7 @@
                     </h3>
                     <p class="classdesc">
                         <br />
-                        <br/>
+                        <br />
                         <em>
                             This course will teach students to egg-sel at eggs. We will cover scrambling, frying, poaching, and more.
                         </em>
@@ -88,7 +88,7 @@
                         Roasting
                     </h3>
                     <br />
-                    <br/>
+                    <br />
                     <p class="classdesc">
                         <br />
                         <em>
@@ -97,12 +97,12 @@
                     </p>
                     <br />
                     <br />
-                    <br/>
+                    <br />
                     <a class="sched" href="#roasting">Class Schedule</a>
                 </div>
             </div>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <div>
                 <div class="card">
                     <img class="imgclass" src="Images/pasta.jpg" alt="nests of homemade pasta" width="235" height="180" />
@@ -149,16 +149,16 @@
                 </div>
             </div>
             <div class="clear"></div>
-            <br/>
+            <br />
         </section>
         <br />
         <section>
             <!--Remember these details for classes per specifics:
-        Beginner courses are Monday and Tuesdays
-        Intermediate courses are Wednesdays and Thursdays
-        Advanced courses are Fridays and Saturdays
-        ALL courses are 2 hours long
-    -->
+                Beginner courses are Monday and Tuesdays
+                Intermediate courses are Wednesdays and Thursdays
+                Advanced courses are Fridays and Saturdays
+                ALL courses are 2 hours long
+            -->
 
             <table>
                 <thead>
@@ -186,7 +186,8 @@
                 <tfoot>
                     <tr>
                         <td colspan="3">
-                        Classes held from 5:30pm - 7:30pm</td>
+                            Classes held from 5:30pm - 7:30pm
+                        </td>
                     </tr>
                 </tfoot>
             </table>
@@ -355,10 +356,42 @@
                     </tr>
                 </tfoot>
             </table>
-            <br/>
+            <br />
         </section>
 
     </main>
+
+    <!--Sidebar class button-->
+    <div id="class-btn" class="button" onclick="openClassNav()">
+        <span class="verticle-text">CLASS SCHEDULES</span>
+    </div>
+
+    <!--Sidebar class nav-->
+    <div id="class-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">
+            &times;
+        </a>
+        <a href="#">Class1</a>
+        <a href="#">Class2</a>
+        <a href="#">Class3</a>
+        <a href="#">Class4</a>
+        <a href="#">Class5</a>
+        <a href="#">Class6</a>
+    </div>
+
+    <!--Toggle class Nav-->
+    <script>
+        function openClassNav {
+            document.getElementById("class-btn").style.display = "none";
+            document.getElementById("class-nav").style.width = "250px";
+        }
+
+        function closeClassNav() {
+            document.getElementById("class-btn").style.display = "block"
+            document.getElementById("class-nav").style.width = "0";
+        }
+    </script>
+    <script src="navbar.js"></script>
     <footer>
         <p class="socialmedia2">
             <a href="http://www.facebook.com/learnwithus" <i class="fab fa-facebook-square"</i></a>

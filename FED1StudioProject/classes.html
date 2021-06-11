@@ -362,36 +362,39 @@
     </main>
 
     <!--Sidebar class button-->
-    <div id="class-btn" class="button" onclick="openClassNav()">
-        <span class="verticle-text">CLASS SCHEDULES</span>
+    <div id="admin-btn" class="button" onclick="openAdminNav()">
+        <span class="vertical-text">SCHEDULE</span>
     </div>
 
     <!--Sidebar class nav-->
-    <div id="class-nav" class="sidenav">
-        <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">
+    <div id="admin-btn" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">
             &times;
         </a>
-        <a href="#">Class1</a>
-        <a href="#">Class2</a>
-        <a href="#">Class3</a>
-        <a href="#">Class4</a>
-        <a href="#">Class5</a>
-        <a href="#">Class6</a>
+        <a href="#knife">Knife Skills</a>
+        <a href="#eggs">All About Eggs</a>
+        <a href="#roasting">Roasting</a>
+        <a href="#pasta">Perfect Pastas</a>
+        <a href="#grill">Grill Master</a>
+        <a href="#bread">Beautiful Breads</a>
     </div>
 
     <!--Toggle class Nav-->
     <script>
-        function openClassNav {
-            document.getElementById("class-btn").style.display = "none";
-            document.getElementById("class-nav").style.width = "250px";
+        function openAdminNav() {
+            document.getElementById("admin-btn").style.display = "block";
+            document.getElementById("admin-nav").style.width = "100px";
         }
 
-        function closeClassNav() {
-            document.getElementById("class-btn").style.display = "block"
-            document.getElementById("class-nav").style.width = "0";
+        function closeAdminNav() {
+            document.getElementById("admin-btn").style.display = "none";
+            document.getElementById("admin-nav").style.width = "0";
         }
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="navbar.js"></script>
+
+
     <footer>
         <p class="socialmedia2">
             <a href="http://www.facebook.com/learnwithus" <i class="fab fa-facebook-square"</i></a>
@@ -405,5 +408,6 @@
         &copy; Danielle Smalley 2021
 
     </footer>
+
 </body>
 </html>

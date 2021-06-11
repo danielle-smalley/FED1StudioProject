@@ -247,7 +247,8 @@ img.imgkitchen{
 
 p.contactusimgp{
     color: white;
-    text-align: right;
+    float: right;
+    clear: both;
 }
 
 main.contactusmain {
@@ -439,4 +440,15 @@ div.card:hover {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
+}
+
+/*Form validation*/
+.invalid {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-group{
+    width: 100%;
 }

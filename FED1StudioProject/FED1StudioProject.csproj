@@ -103,6 +103,7 @@
     <Content Include="Stylesheets\import.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />
+    <Content Include="validation.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

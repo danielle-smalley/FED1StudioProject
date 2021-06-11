@@ -9,6 +9,9 @@
 
     <title> Meal Magic Academy | Classes </title>
     <link href="Stylesheets/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet" />
+
     <script src="https://kit.fontawesome.com/4263a2b62a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -154,209 +157,217 @@
         <br />
         <section>
             <!--Remember these details for classes per specifics:
-                Beginner courses are Monday and Tuesdays
-                Intermediate courses are Wednesdays and Thursdays
-                Advanced courses are Fridays and Saturdays
-                ALL courses are 2 hours long
-            -->
+        Beginner courses are Monday and Tuesdays
+        Intermediate courses are Wednesdays and Thursdays
+        Advanced courses are Fridays and Saturdays
+        ALL courses are 2 hours long
+    -->
+            <!--<div class="row">
+                <article class="col-md-12">
+                    <div class="row">
+                        <article class="col-sm-12">
+                            <h2>Class Schedules</h2>-->
+                            <table>
+                                <thead>
+                                    <tr id="knife">
+                                        <th colspan="3">Knife Skills Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gregory Randall</td>
+                                        <td>Loretta Wooten</td>
+                                        <td>Rhia Duke</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 5:30pm - 7:30pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <br />
 
-            <table>
-                <thead>
-                    <tr id="knife">
-                        <th colspan="3">Knife Skills Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Gregory Randall</td>
-                        <td>Loretta Wooten</td>
-                        <td>Rhia Duke</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 5:30pm - 7:30pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
+                            <table>
+                                <thead>
+                                    <tr id="eggs">
+                                        <th colspan="3">All About Eggs Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gregory Randall</td>
+                                        <td>Loretta Wooten</td>
+                                        <td>Loretta Wooten</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 6:00pm - 8:00pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <br />
 
-            <table>
-                <thead>
-                    <tr id="eggs">
-                        <th colspan="3">All About Eggs Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Gregory Randall</td>
-                        <td>Loretta Wooten</td>
-                        <td>Loretta Wooten</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 6:00pm - 8:00pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
+                            <table>
+                                <thead>
+                                    <tr id="roasting">
+                                        <th colspan="3">Roasting Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rhia Duke</td>
+                                        <td>Gregory Randall</td>
+                                        <td>Gregory Randall</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 5:30pm - 7:30pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <br />
 
-            <table>
-                <thead>
-                    <tr id="roasting">
-                        <th colspan="3">Roasting Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Rhia Duke</td>
-                        <td>Gregory Randall</td>
-                        <td>Gregory Randall</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 5:30pm - 7:30pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
+                            <table>
+                                <thead>
+                                    <tr id="pasta">
+                                        <th colspan="3">Perfect Pastas Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gregory Randall</td>
+                                        <td>Rhia Duke</td>
+                                        <td>Rhia Duke</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 5:15pm - 7:15pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <br />
 
-            <table>
-                <thead>
-                    <tr id="pasta">
-                        <th colspan="3">Perfect Pastas Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Gregory Randall</td>
-                        <td>Rhia Duke</td>
-                        <td>Rhia Duke</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 5:15pm - 7:15pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
+                            <table>
+                                <thead>
+                                    <tr id="grill">
+                                        <th colspan="3">Grill Mastery Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rhia Duke</td>
+                                        <td>Guest Instructor--TBA</td>
+                                        <td>Guest Instructor--TBA</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 6:00pm - 8:00pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <br />
 
-            <table>
-                <thead>
-                    <tr id="grill">
-                        <th colspan="3">Grill Mastery Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Rhia Duke</td>
-                        <td>Guest Instructor--TBA</td>
-                        <td>Guest Instructor--TBA</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 6:00pm - 8:00pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
-
-            <table>
-                <thead>
-                    <tr id="bread">
-                        <th colspan="3">Beautiful Breads Course Shedule</th>
-                    </tr>
-                    <tr>
-                        <th>Beginner</th>
-                        <th>Intermediate</th>
-                        <th>Advanced</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mondays & Tuesdays</td>
-                        <td>Wednesday & Thursdays</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>Gregory Randall</td>
-                        <td>Rhia Duke</td>
-                        <td>Loretta Wooten</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            Classes held from 5:30pm - 7:30pm
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br />
+                            <table>
+                                <thead>
+                                    <tr id="bread">
+                                        <th colspan="3">Beautiful Breads Course Shedule</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Beginner</th>
+                                        <th>Intermediate</th>
+                                        <th>Advanced</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mondays & Tuesdays</td>
+                                        <td>Wednesday & Thursdays</td>
+                                        <td>Fridays & Saturdays</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gregory Randall</td>
+                                        <td>Rhia Duke</td>
+                                        <td>Loretta Wooten</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3">
+                                            Classes held from 5:30pm - 7:30pm
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                                                    <!--</article>
+                    </div>
+                </article>
+            </div>-->
+                            <br />
         </section>
 
     </main>
@@ -393,7 +404,13 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="navbar.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
+    <script>
+        $(function () {
+            $('#simpleTable').DataTable();
+        });
+    </script>
 
     <footer>
         <p class="socialmedia2">

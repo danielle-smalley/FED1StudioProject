@@ -205,6 +205,11 @@ p.contactus{
     padding: .3em;
 }
 
+#contactus{
+    font-size: 1em;
+}
+
+
 h3.subjecttitles{
     font-size: 1.5em;
     text-align: center;
@@ -243,12 +248,16 @@ h3.aboutusheader {
 img.imgkitchen{
     float: right;
     clear: both;
+    padding-right: 1em;
+    padding-top: 2em;
 }
 
 p.contactusimgp{
     color: white;
     float: right;
     clear: both;
+    padding-right: 1em;
+    padding-top: 2em;
 }
 
 main.contactusmain {
@@ -333,8 +342,10 @@ img.chooseusimg2{
     margin-left: .5em;
 }
 
-#contactus{
-    font-size: 1em;
+.contactus{
+    font-size: 1.5em;
+    padding-left: .5em;
+
 }
 
 #logo{
@@ -450,5 +461,15 @@ div.card:hover {
 }
 
 .form-group{
+    width: 50%;
+
+}
+
+#rfvMessage{
     width: 100%;
 }
+
+.container{
+    padding-left: .5em;
+}
+

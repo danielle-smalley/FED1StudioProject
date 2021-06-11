@@ -49,7 +49,7 @@
     </nav>
     <main class="contactusmain">
         <article class="col-md-4">
-            <img class="imgkitchen" src="Images/studiokitchen.jpg" alt="cooking on stove in kitchen" height="310" width="630" />
+            <img src="Images/studiokitchen.jpg" id="imgkitchen" alt="cooking on stove in kitchen" height="310" width="630" class="img-responsive thumb" />
 
             <p class="contactusimgp">Check out our world-class kitchen and learning studio!</p>
         </article>
@@ -61,29 +61,29 @@
             <section class="container">
                 <form class="form" action="#" method="get" onsubmit="validateForm(event)">
                     <!--<div class="col-sm-offset-2 col-sm-8">-->
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
-                                <span id="rfvName" class="invalid"></span> <!--The span after each of these is to fire off the form validation when the user clicks the submit button-->
-                            </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                            <span id="rfvName" class="invalid"></span> <!--The span after each of these is to fire off the form validation when the user clicks the submit button-->
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
-                                <span id="rfvEmail" class="invalid"></span>
-                            </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                            <span id="rfvEmail" class="invalid"></span>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
-                                <span id="rfvMessage" class="invalid"></span>
-                            </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                            <span id="rfvMessage" class="invalid"></span>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="submit" class="btn btn-success" value="Send Message" />
-                            </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-success" value="Send Message" />
                         </div>
+                    </div>
                     <!--</div>-->
                 </form>
             </section>
@@ -111,6 +111,17 @@
 
 
     </main>
+
+    <!--Lightbox-->
+    <div id="lightbox-container">
+        <p>Click anywhere to close</p>
+
+        <div id="lightbox-content">
+
+        </div>
+    </div>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="validation.js"></script>
     <script src="navbar.js"></script>

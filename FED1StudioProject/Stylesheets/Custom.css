@@ -257,7 +257,8 @@ p.contactusimgp{
     float: right;
     clear: both;
     padding-right: 1em;
-    padding-top: 2em;
+    padding-top: 1em; 
+    padding-bottom: 2em;
 }
 
 main.contactusmain {
@@ -345,6 +346,7 @@ img.chooseusimg2{
 .contactus{
     font-size: 1.5em;
     padding-left: .5em;
+    padding-top: .5em;
 
 }
 
@@ -387,7 +389,7 @@ img.chooseusimg2{
 .sched{
     font-size: .75em;
     float: left;
-    padding-left: 8em;
+    padding-left: 9.5em;
 }
 
 div.card:hover {
@@ -395,108 +397,4 @@ div.card:hover {
     background-color: RGBA(137,9,184,.6);
 }
 
-/*Styling for Class Sidebar*/
-.sidenav {
-    height: 100%;
-    width: 50px; /*makes it where you can't see it until it's expanded*/
-    position: fixed;
-    z-index: 1000; /*z-index helps us move something closer to the user or farther away from the user (think x y axis), like layering*/
-    top: 0;
-    left: 0; /*we want this to start at the top left*/
-    background-color: RGBA(255, 255, 255, .6);
-    overflow-x: hidden; /*used when do do fly outs like this admin slide bar*/
-    padding-top: 5em; /*pushing content down from top of page*/
-    transition: .5s;
-}
 
-.sidenav a {
-    padding: 2px 2px 2px 10px; /*TRBL top rt btm left*/
-    text-decoration: none;
-    font-size: 1.5em;
-    color: black;
-    display: block;
-    transition: .3s;
-}
-
-.sidenav a:hover {
-    color: darkgoldenrod;
-}
-
-.close-btn {
-    position: absolute; /*fixes it on the window so it doesn't move around as things scale*/
-    top: 50px; /*sending this to the top like the other element bc we have this at the bottom of our page in the html code*/
-    right: 25px;
-    font-size: 1em;
-    margin-left: 20px;
-}
-
-.button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100%;
-    width: 3em;
-    z-index: 1001; /*on same level as the other piece w/ zindex*/
-    position: fixed;
-    left: 0;
-    top: 0;
-    cursor: pointer; /*changes cursor to be pointer*/
-    background-color: RGBA(255, 255, 255, .6);
-}
-
-.vertical-text {
-    position: absolute;
-    top: 43%;
-    left: 0;
-    writing-mode: vertical-lr; /*positions this in a non default position*/
-    color: black;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-}
-
-/*Form validation*/
-.invalid {
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.form-group{
-    width: 50%;
-
-}
-
-#rfvMessage{
-    width: 100%;
-}
-
-.container{
-    padding-left: .5em;
-}
-
-/*Lightbox styling*/
-.thumb {
-    cursor: pointer;
-}
-
-/*Lightbox styling*/
-#lightbox-container {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.8);
-    text-align: center;
-    padding-top: 4em;
-    display: none;
-}
-
-    #lightbox-container p {
-        color: #fff; /*white*/
-    }
-
-#lightbox-content {
-    border: 10px solid gray;
-    margin: auto;
-    text-align: center;
-}

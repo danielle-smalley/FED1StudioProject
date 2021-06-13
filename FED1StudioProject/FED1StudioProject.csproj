@@ -98,13 +98,10 @@
     <Content Include="Images\tatedodson.png" />
     <Content Include="Images\whyus1.png" />
     <Content Include="Images\whyus2.png" />
-    <Content Include="lightbox.js" />
-    <Content Include="navbar.js" />
     <Content Include="Stylesheets\Custom.css" />
     <Content Include="Stylesheets\import.css" />
     <Content Include="team.html" />
     <Content Include="index.html" />
-    <Content Include="validation.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

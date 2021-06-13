@@ -9,9 +9,6 @@
 
     <title> Meal Magic Academy | Classes </title>
     <link href="Stylesheets/custom.css" rel="stylesheet" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet" />
-
     <script src="https://kit.fontawesome.com/4263a2b62a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -164,11 +161,6 @@
         Advanced courses are Fridays and Saturdays
         ALL courses are 2 hours long
     -->
-            <!--<div class="row">
-                <article class="col-md-12">
-                    <div class="row">
-                        <article class="col-sm-12">
-                            <h2>Class Schedules</h2>-->
                             <table>
                                 <thead>
                                     <tr id="knife">
@@ -365,54 +357,10 @@
                                     </tr>
                                 </tfoot>
                             </table>
-                                                    <!--</article>
-                    </div>
-                </article>
-            </div>-->
                             <br />
         </section>
 
     </main>
-
-    <!--Sidebar class button-->
-    <div id="admin-btn" class="button" onclick="openAdminNav()">
-        <span class="vertical-text">SCHEDULE</span>
-    </div>
-
-    <!--Sidebar class nav-->
-    <div id="admin-btn" class="sidenav">
-        <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">
-            &times;
-        </a>
-        <a href="#knife">Knife Skills</a>
-        <a href="#eggs">All About Eggs</a>
-        <a href="#roasting">Roasting</a>
-        <a href="#pasta">Perfect Pastas</a>
-        <a href="#grill">Grill Master</a>
-        <a href="#bread">Beautiful Breads</a>
-    </div>
-
-    <!--Toggle class Nav-->
-    <script>
-        function openAdminNav() {
-            document.getElementById("admin-btn").style.display = "block";
-            document.getElementById("admin-nav").style.width = "100px";
-        }
-
-        function closeAdminNav() {
-            document.getElementById("admin-btn").style.display = "none";
-            document.getElementById("admin-nav").style.width = "0";
-        }
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="navbar.js"></script>
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-
-    <script>
-        $(function () {
-            $('#simpleTable').DataTable();
-        });
-    </script>
 
     <footer>
         <p class="socialmedia2">
